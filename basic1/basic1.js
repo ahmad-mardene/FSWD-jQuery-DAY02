@@ -12,7 +12,4 @@ $(document).ready(function(){
 	$(".santa").on("click",function(){
 		$(this).hide();
 	})
-	$(".gift").on("click",function(){
-		$(this).hide();
-	})
 })

@@ -1,0 +1,32 @@
+#number2 {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid black;
+	align-items: center;
+	height: 110px;
+	margin-top: 50px;
+}
+
+.num2 {
+	border: 1px solid gray;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+}
+
+#number1 {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid black;
+	align-items: center;
+	height: 100px;
+}
+
+.num1 {
+	border: 1px solid gray;
+	background-color: gray;
+	height: 80px;
+	width: 80px;
+	text-align: center;
+}
+
