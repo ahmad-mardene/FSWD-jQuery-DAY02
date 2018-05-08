@@ -4,16 +4,17 @@ var result = random-1;
 console.log(result);
 
 
-function dragStart(event){
-	event.dataTransfer.setData("text", event.target.id);
+function dragStart(event) {
+    event.dataTransfer.setData("Text", event.target.id);
 }
 
-function allowDrop(event){
-	event.preventDefault();
+function allowDrop(event) {
+    event.preventDefault();
 }
 
-function drop(event){
-	event.preventDefault();
-	var data = event.dataTransfer.getData("text");
-	event.target.appendChild(document.getElementById('data'));
+function drop(event) {
+    event.preventDefault();
+    var data = event.dataTransfer.getData("Text");
+    event.target.appendChild(document.getElementById(data));
+    
 }
